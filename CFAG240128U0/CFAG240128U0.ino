@@ -17,8 +17,8 @@
 //  #8/D8     |  PB0 | LCD_DC Data/Command or Register Select
 //  #9/D9     |  PB1 | LCD_RESET
 // #10/D10    |  PB2 | LCD_CS_NOT   (or SPI SS)
-// #11/D11    |  PB3 | LCD_MOSI/DB7 (hardware SPI)
-// #13/D13    |  PB5 | LCD_SCK/DB6  (hardware SPI)
+// #11/D11    |  PB3 | LCD_MOSI/DB1 (hardware SPI)
+// #13/D13    |  PB5 | LCD_SCK/DB7  (hardware SPI)
 //
 // You will also need to tie the interface pins (IF0 and IF1) low for SPI
 // see datasheet for other interfaces
